@@ -1,0 +1,143 @@
+:root
+{
+  --whitish:#eee;
+  --yellow:#f5ba13;
+}
+body
+{
+  margin: 0;
+  background-color: var(--whitish);
+}
+/* NavBar */
+nav
+{
+  font-family: "McLaren", sans-serif;
+  background-color: var(--yellow);
+  color: var(--whitish);
+  display: flex;
+  justify-content: start;
+  margin: 0;
+}
+nav h1
+{
+  font-size: 2.5rem;
+  margin-left: 10%;
+  font-weight: 500;
+}
+/* Body input Notes */
+.inputs
+{
+  
+  display: flex;
+  flex-direction: column;
+  border: .1rem solid black;
+  border-radius: 15px;
+   margin: 1%;
+   padding: 1%;
+}
+#title
+{
+  width: 80%;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  font-size: 20px;
+  height: 4svh;
+  outline-color: var(--yellow);
+  margin: 1%;
+  font-family: "Roboto", sans-serif;
+}
+#note
+{
+  width: 90%;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  font-size: 2rem;
+  height: 20svh;
+  outline-color: var(--yellow);
+  resize: none;
+    font-family: "Roboto", sans-serif;
+
+}
+.submit
+{
+   border-radius: 15px;
+   background-color: var(--yellow);
+   color: var(--whitish);
+   font-family: "Playwrite DK Loopet", cursive;
+    width: 20svh;
+    height: 5svh;
+    margin: 2%;
+    align-self: flex-end;
+    cursor: pointer;
+    border:0;
+}
+/* Card */
+.wraper
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card
+{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   margin: 1%;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px #888888;
+  border-radius: 15px;
+  color: black;
+  height: 30svh;
+  width: 30svh;
+  text-align: center;
+  padding: 1%;
+}
+.chead
+{
+  width: 100%;
+}
+.cbody
+{
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: none;
+}
+.card h1
+{
+     font-family: "Playwrite DK Loopet", cursive;
+     color: var(--yellow);
+}
+.card p
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  width: 100%;
+  font-size: 2rem;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.delete
+{
+  align-self: flex-end;
+  width: 40%;
+  height: 20%;
+  background-color: transparent;
+  border-radius: 15px;
+  border: none;
+  font-family: "Playwrite DK Loopet", cursive;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 1%;
+  transition: 200ms linear;
+}
+.delete:hover
+{
+  background-color: var(--yellow);
+  color: var(--whitish);
+}
