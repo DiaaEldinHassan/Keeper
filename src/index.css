@@ -132,7 +132,7 @@ nav h1
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
-  margin: 1%;
+  margin: 5%;
   transition: 200ms linear;
 }
 .delete:hover
