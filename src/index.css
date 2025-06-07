@@ -122,8 +122,8 @@ nav h1
 }
 .delete
 {
-  align-self: flex-end;
-  width: 40%;
+  align-self: center;
+  width: 80%;
   height: 20%;
   background-color: transparent;
   border-radius: 15px;
